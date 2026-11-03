@@ -27,7 +27,7 @@ pipeline {
             steps {
                 bat 'echo === Afficher le contenu du projet ==='
                 bat 'dir'
-                bat 'if not exist index.html exit /b 1'
+                bat 'if not exist fichier.html exit /b 1'
                 bat 'echo TEST SUCCESS'
             }
         }
